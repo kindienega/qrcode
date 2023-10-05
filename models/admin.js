@@ -10,6 +10,6 @@ const AdminSchema=new Schema({
 })
  const Admin=mongoose.model('Admin',AdminSchema)
 
-//   const admin=new Admin({username:"kindie"})
+//  const admin=new Admin({username:"kindie"})
 //  admin.save()
  module.exports=Admin
