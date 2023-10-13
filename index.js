@@ -32,7 +32,7 @@ const Operator=require('./models/operator')
 
 const {isAdminLoggedIn,isOperatorLoggedIn,isAdmin,isOperator}=require('./middleware')
 
-
+//database connections on mongoDb 
 
 const app=express()
 mongoose.set('strictQuery',false)
@@ -43,8 +43,8 @@ mongoose
     })
     .catch((e)=>{
         console.log(e)
-       })
-      
+       });
+//this is connections of localhost & tha above connections is on mongo atlass cocnnections 
 // mongoose.connect('mongodb://127.0.0.1:27017/kkk')
 //  .then(()=>{
 //     console.log("connected")
