@@ -1,6 +1,6 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">TETER</a>
+      <a class="navbar-brand" href="#">Cloud</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -15,10 +15,10 @@
             <a class="nav-link" href="/signup">Signup</a>
             <a class="nav-link" href="/login">Login</a>
             <% }else{ %> 
-              <a class="nav-link" href="/employees">all employees</a>
-            <a class="nav-link" href="/employees/new">add new employee</a>
+              <a class="nav-link" href="/employees">allEmployees</a>
+            <a class="nav-link" href="/employees/new">addNewEmployee</a>
           <% if(currentUser.role=="admin"){ %> 
-           <a class="nav-link" href="/register">register authorities</a>
+           <a class="nav-link" href="/register">registerAuthorities</a>
            <% } %> 
             <a class="nav-link" href="/logout">Logout</a>
         <% } %> 
